@@ -1,0 +1,183 @@
+.container {
+    max-width: 1810px;
+    width: 100%;
+    padding: 0 110px;
+    margin: 0 auto;
+}
+body {
+    font-family: Roboto,  sans-serif;
+    font-size: 18px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header__inner {
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+}
+.header__title {
+    padding-left: 64px;
+    position: relative;
+}
+.header__title::before {
+    position: absolute;
+    content: '';
+    background: url("../img/youtube.svg");
+    width: 38px;
+    height: 38px;
+    top: -11px;
+    left: 24px;
+}
+.header__input {
+    margin-left: 239px;
+    width: 631px;
+    padding: 13px 45px 13px 10px;
+    border: 1px solid #B1B0B0;
+    outline: none;
+}
+.header__input::placeholder {
+    font-size: 18px;
+    line-height: 21px;
+}
+.header__input::after {
+    position: absolute;
+    content: '';
+    background: url("../img/keyboard.svg");
+    width: 25px;
+    height: 25px;
+    top: -8px;
+    left: 24px;
+}
+.header__btn {
+    background: linear-gradient(0deg,
+    rgba(214, 214, 214, 0.2),
+    rgba(214, 214, 214, 0.2)),
+    rgba(255, 255, 255, 0.2);
+    border: 1px solid #B1B0B0;
+    padding: 9px 21px 8px 21px;
+    position: relative;
+
+}
+.header__btn::before {
+    position: absolute;
+    content: '';
+    background: url("../img/keyboard.svg");
+    width: 25px;
+    height: 25px;
+    top: 7px;
+    left: -38px;
+}
+.header__voice-btn {
+    background: none;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+.header__voice-img {
+    background: #F7F7F7;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+.header__right-menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header__camera-btn {
+    border: none;
+    width: 21px;
+    height: 16px;
+    background: none;
+}
+.header__bell-btn {
+    background: none;
+    border: none;
+    margin-left: 25px;
+}
+.header__account-btn {
+    background: none;
+    border: none;
+    width: 38px;
+    height: 38px;
+    margin-left: 25px;
+}
+.nav {
+    position: fixed;
+}
+.menu__btn {
+    padding: 14px 0;
+    display: block;
+}
+.menu__btn {
+    position: relative;
+    background: #DCDCDC;
+    border: none;
+    padding: 9px 54px 8px 80px;
+    width: 226px;
+    height: 38px;
+}
+.menu__btn::before {
+    position: absolute;
+    content: '';
+    background: url("../img/house.svg");
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 54px;
+    z-index: 9;
+}
+.menu__subscriptions {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 9px 54px 8px 80px;
+    width: 226px;
+    height: 38px;
+    display: block;
+}
+.menu__subscriptions::before {
+    position: absolute;
+    content: '';
+    background: url("../img/subscription.svg");
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 54px;
+    z-index: 9;
+}
+.menu__history {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 9px 54px 8px 80px;
+    width: 226px;
+    height: 38px;
+}
+.menu__history::before {
+    position: absolute;
+    content: '';
+    background: url("../img/clock-history.svg");
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 54px;
+    z-index: 9;
+}
+/*.haeder__videos {*/
+/*    position: relative;*/
+/*    font-size: 100%;*/
+/*    background: none;*/
+/*    border: none;*/
+/*    padding: 9px 54px 8px 80px;*/
+/*    width: 226px;*/
+/*    height: 38px;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*}*/
+.menu__btn:hover {
+    color:red;
+}
