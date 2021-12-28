@@ -167,17 +167,161 @@ header {
     left: 54px;
     z-index: 9;
 }
-/*.haeder__videos {*/
-/*    position: relative;*/
-/*    font-size: 100%;*/
-/*    background: none;*/
-/*    border: none;*/
-/*    padding: 9px 54px 8px 80px;*/
-/*    width: 226px;*/
-/*    height: 38px;*/
-/*    top: 10px;*/
+.menu__btn:hover {
+    background:#C1C1C1;
+}
+/*.content {*/
+/*    !*padding: 0px 0;*!*/
+/*    font-family: Roboto,  sans-serif;*/
+/*    font-size: 24px;*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*}*/
+.content__videos1 {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    background:  #F1F1F1;
+    border: none;
+    margin-top: 92px;
+    margin-left: 252px;
+    padding-top: 161px;
+    padding-left: 10px;
+    width: 384px;
+    height:397px;
+}
+.content__videos1::before {
+    position: absolute;
+    content: '';
+    background: url("../img/img video1.svg");
+    width: 384px;
+    height: 248px;
+    top: 0px;
+    left: 0px;
+}
+.content__videos1::after {
+    font-size: 18px;
+    position: absolute;
+    content: 'Best';
+    color: #8E8E8E;
+    top: 313px;
+    left: 10px;
+}
+/*.content__videos1::after {*/
+/*    position: absolute;*/
+/*    content: '1 рік тому';*/
+/*    color: #8E8E8E;*/
+/*    top: 126px;*/
 /*    left: 10px;*/
 /*}*/
-.menu__btn:hover {
-    color:red;
+.content__videos2 {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    background:  #F1F1F1;
+    border: none;
+    margin-top: 0px;
+    margin-left: 21px;
+    padding-top: 161px;
+    padding-left: 10px;
+    width: 384px;
+    height:397px;
 }
+.content__videos2::before {
+    position: absolute;
+    content: '';
+    background: url("../img/img video2.svg");
+    width: 384px;
+    height: 248px;
+    top: 0px;
+    left: 0px;
+}
+.content__videos2::after {
+    font-size: 18px;
+    position: absolute;
+    content: 'Best';
+    color: #8E8E8E;
+    top: 313px;
+    left: 10px;
+}
+/*.content__videos1::after {*/
+/*    position: absolute;*/
+/*    content: '11 місяців тому';*/
+/*    color: #8E8E8E;*/
+/*    top: 126px;*/
+/*    left: 10px;*/
+/*}*/
+.content__videos3 {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    background:  #F1F1F1;
+    border: none;
+    margin-top: 0px;
+    margin-left: 21px;
+    padding-top: 161px;
+    padding-left: 10px;
+    width: 384px;
+    height:397px;
+}
+.content__videos3::before {
+    position: absolute;
+    content: '';
+    background: url("../img/img video3.svg");
+    width: 384px;
+    height: 248px;
+    top: 0px;
+    left: 0px;
+}
+.content__videos3::after {
+    font-size: 18px;
+    position: absolute;
+    content: 'Magic Music';
+    color: #8E8E8E;
+    top: 313px;
+    left: 10px;
+}
+/*.content__videos1::after {*/
+/*    position: absolute;*/
+/*    content: '12 днів тому';*/
+/*    color: #8E8E8E;*/
+/*    top: 126px;*/
+/*    left: 10px;*/
+/*}*/
+.content__videos4 {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    background:  #F1F1F1;
+    border: none;
+    margin-top: 0px;
+    margin-left: 1477px;
+    padding-top: 161px;
+    padding-left: 10px;
+    width: 384px;
+    height:397px;
+}
+.content__videos4::before {
+    position: absolute;
+    content: '';
+    background: url("../img/img video4.svg");
+    width: 384px;
+    height: 248px;
+    top: 0px;
+    left: 0px;
+}
+.content__videos4::after {
+    font-size: 18px;
+    position: absolute;
+    content: 'Best';
+    color: #8E8E8E;
+    top: 313px;
+    left: 10px;
+}
+/*.content__videos1::after {*/
+/*    position: absolute;*/
+/*    content: '12 днів тому';*/
+/*    color: #8E8E8E;*/
+/*    top: 126px;*/
+/*    left: 10px;*/
+/*}*/
