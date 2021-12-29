@@ -206,9 +206,15 @@ header {
 }
 .videos__item span {
     line-height: 21px;
+    color: #8E8E8E;
 }
 @media (max-width: 1500px) {
     .videos__inner {
         grid-template-columns: repeat(3, 384px);
+    }
+}
+@media (max-width: 1100px) {
+    .videos__inner {
+        grid-template-columns: repeat(2, 384px);
     }
 }
